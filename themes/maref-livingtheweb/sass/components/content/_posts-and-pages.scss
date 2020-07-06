@@ -21,3 +21,133 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+// Home
+.bg-general {
+	background-color: $bg-general;
+}
+.bg-servicios {
+  background-color:$bg-section-servicios;
+}
+.bg-caja-02 {
+	background-color: $bg-caja-02;
+}
+
+// Header
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+// Noticias y anuncions
+.sp-blog-item {
+  margin-top: 30px;
+  -webkit-box-shadow: 0 17px 29px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 17px 29px rgba(0, 0, 0, 0.15);
+}
+.sp-blog-item .blog-thubm {
+  position: relative;
+}
+.sp-blog-item .blog-thubm img {
+  min-width: 100%;
+}
+.sp-blog-item .blog-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $bg-caja-02;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 24px 15px 30px;
+}
+.sp-blog-item .blog-date span {
+  position: relative;
+  z-index: 2;
+}
+// .sp-blog-item .blog-date:after {
+//   position: absolute;
+//   content: "";
+//   right: -30px;
+//   top: 0;
+//   color: transparent;
+//   border-left: 30px solid transparent;
+//   border-right: 30px solid transparent;
+//   border-top: 51px solid #da251d;
+//   z-index: 0;
+// }
+.sp-blog-item .blog-text {
+  padding: 48px 40px 45px;
+  background: #fff;
+  position: relative;
+}
+.sp-blog-item .blog-text h5 {
+  margin-bottom: 10px;
+  height: 50px;
+}
+.sp-blog-item .blog-text span {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  // color: #58585C;
+}
+.sp-blog-item .blog-text .comment {
+  font-size: 12px;
+  color: #474747;
+}
+.sp-blog-item .readmore {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 41px;
+  height: 41px;
+  text-align: center;
+  background: $bg-caja-02;
+  color: #fff;
+  font-size: 23px;
+  padding-top: 4px;
+}

@@ -25,12 +25,12 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'maref-livingtheweb' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		
 
-		<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-light d-felx">
-		
-			<div class="site-branding navbar-brand">
+	<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-general">
+		<div class="container">
+			
+						
+		<div class="float-left navbar-brand">
 				<?php
 				the_custom_logo();
 				if ( is_front_page() && is_home() ) :
@@ -45,9 +45,9 @@
 				$maref_livingtheweb_description = get_bloginfo( 'description', 'display' );
 				if ( $maref_livingtheweb_description || is_customize_preview() ) :
 					?>
-					<p class="site-description"><?php echo $maref_livingtheweb_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+					<p class="site-description"><?php echo $maref_livingtheweb_description; ?></p>
 				<?php endif; ?>
-			</div><!-- .site-branding -->		
+			</div> 
 		
 		
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,36 +60,32 @@
 					'container'       => 'div',
 					'container_class' => 'collapse navbar-collapse',
 					'container_id'    => 'menu-principal',
-					'menu_class'      => 'navbar-nav ml-auto',
+					'menu_class'      => 'navbar-nav mx-auto',
 					'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'          => new WP_Bootstrap_Navwalker(),
 				) );			
 			?>
-				<div class="row" id="redes">
-					<div class="col"></div>	
-						<div class="nav-redes">							 
-							<i class="fab fa-facebook-f pr-1"></i>
-							<i class="fab fa-twitter pr-1"></i>									
-						</div>			
-				</div>	
-		</nav>
-		<!-- #site-navigation -->
-		<!-- <hr> -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">	
+							
+				<span class="navbar-text">
+					<a href="" class="btn btn-blue">APP</a>
+					<a href="" class="btn btn-orange">Aula Virtual</a>
+				</span>		
 
-			<div class="collapse navbar-collapse" id="menu-principal">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">eLearning <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Catálogo</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">APP</a>
-					</li>
-					
-				
+				<div class="col"></div>	
+				<div class="nav-redes">	
+
+					<span class="fa-stack fa-1x" style="color:#fff;line-height:2.3em">
+						<i class="fa circle-icon fa-stack-2x icon-background"></i>
+						<i class="fab fa-youtube fa-stack-1x"></i>
+					</span>			
+					<span class="fa-stack fa-1x" style="color:#fff;line-height:2.3em">
+						<i class="fa circle-icon fa-stack-2x icon-background"></i>
+						<i class="fab fa-linkedin fa-stack-1x"></i>
+					</span>							
+				</div>			
 			</div>
-		</nav>
-	</header><!-- #masthead -->
+	</nav>
+			<!-- #site-navigation -->
+	
+
+
