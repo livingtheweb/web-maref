@@ -58,9 +58,9 @@
 					'theme_location'  => 'menu-1',
 					'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
 					'container'       => 'div',
-					'container_class' => 'collapse navbar-collapse',
+					'container_class' => 'collapse navbar-collapse mr-5',
 					'container_id'    => 'menu-principal',
-					'menu_class'      => 'navbar-nav mx-auto',
+					'menu_class'      => 'navbar-nav ml-auto',
 					'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'          => new WP_Bootstrap_Navwalker(),
 				) );			

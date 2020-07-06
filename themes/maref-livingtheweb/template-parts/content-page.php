@@ -9,25 +9,31 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+
+
 
 	<?php maref_livingtheweb_post_thumbnail(); ?>
+<section class="bg-white pt-5">
+	<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<?php
+					the_content();
 
-	<div class="entry-content">
-		<?php
-		the_content();
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'maref-livingtheweb' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
+					wp_link_pages(
+						array(
+							'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'maref-livingtheweb' ),
+							'after'  => '</div>',
+						)
+					);
+					?>
+				</div>
+			<div class="col-lg-3">
+				<?php get_sidebar(); ?>
+			</div>
+		</div>
+	</div>
+</section>
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
@@ -51,4 +57,4 @@
 			?>
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
-</article><!-- #post-<?php the_ID(); ?> -->
+

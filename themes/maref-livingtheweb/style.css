@@ -10526,6 +10526,26 @@ header .overlay {
 	padding-top: 4px;
 }
 
+.section-servicios {
+	padding: 150px 0;
+}
+
+.bg-btn-app {
+	background-color: #0f465a;
+}
+
+.text-naranja {
+	color: #f0552d;
+}
+
+.text-blue {
+	color: #0f465a;
+}
+
+.caja {
+	height: 200px;
+}
+
 footer {
 	background-color: #e6e6e6;
 }
