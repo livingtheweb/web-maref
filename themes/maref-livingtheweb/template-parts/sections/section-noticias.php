@@ -25,7 +25,7 @@
 				<div class="col-lg-4">
 					<div class="sp-blog-item">
 						<div class="blog-thubm">
-							<figure style="width:340px; height:230px; background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center; background-size:cover"></figure>
+							<figure style="height:230px; background:url(<?php echo get_the_post_thumbnail_url(); ?>) no-repeat center center; background-size:cover"></figure>
 							<div class="blog-date">
 								<span class="text-uppercase font-weight-bold">
 									<!-- Else muestra texto por defecto si no colocan tag! -->

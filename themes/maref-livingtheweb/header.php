@@ -73,7 +73,6 @@
 
 				<div class="col"></div>	
 				<div class="nav-redes">	
-
 					<span class="fa-stack fa-1x" style="color:#fff;line-height:2.3em">
 						<i class="fa circle-icon fa-stack-2x icon-background"></i>
 						<i class="fab fa-youtube fa-stack-1x"></i>

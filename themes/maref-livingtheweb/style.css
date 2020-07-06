@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-Theme Name: Maref by Livingtheweb!
+Theme Name: Maref by Livingtheweb! & Fática Diseños
 Theme URI: http://underscores.me/
-Author: Livingtheweb!
+Author: Livingtheweb! & Fática Diseños
 Author URI: https://www.livingthewebla.com/web/
 Description: Un theme desarrollado en base al trabajo de diseño UX/UI de Silvana Lena (Fatica diseños). Full responsive, full cross-browser y desarrollado según los estándares web actuales de la w3c y de la comunidad de WordPress
 Version: 1.0.0
@@ -10385,11 +10385,6 @@ textarea {
 	display: block;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
-
 .updated:not(.published) {
 	display: none;
 }
@@ -10529,6 +10524,10 @@ header .overlay {
 	color: #fff;
 	font-size: 23px;
 	padding-top: 4px;
+}
+
+footer {
+	background-color: #e6e6e6;
 }
 
 /* Comments
