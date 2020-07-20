@@ -35,7 +35,23 @@ get_header();
       </div>
     </section>
 
-    <section class="section-servicios" style="background-image:url(<?php the_field('fondo_01'); ?>); background-repeat:no-repeat;background-position:center center; background-size:cover">
+    <section id="asistencia-tecnica" class="section-servicios bg-general">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <img src="<?php echo site_url();?>/wp-content/uploads/2020/07/servicios-laboratorios.jpg" alt="">           
+          </div>
+          <div class="mx-4"></div>
+          <div class="col-lg-3">              
+            <h2 class="font-weight-bold text-left display-4">Asistencia técnica</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugit, illum, repellendus impedit veritatis quidem ut commodi pariatur at earum odit recusandae quos, perferendis dolore molestiae similique nisi harum fuga.</p>    
+            <a href="" class="btn btn-orange text-uppercase">Más información</a>               
+          </div>
+        </div>
+      </div>     
+    </section> 
+
+    <!-- <section class="section-servicios" style="background-image:url(<?php the_field('fondo_01'); ?>); background-repeat:no-repeat;background-position:center center; background-size:cover">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -45,9 +61,9 @@ get_header();
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="section-servicios" style="background-image:url(<?php the_field('fondo_02'); ?>); background-repeat:no-repeat;background-position:center center; background-size:cover">
+    <section id="alquiler-de-containers" class="py-5" style="background-image:url(<?php the_field('fondo_02'); ?>); background-repeat:no-repeat;background-position:center center; background-size:cover">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 offset-lg-6">
@@ -65,6 +81,16 @@ get_header();
           <div class="col-lg-4">
             <h2 class="text-blue">Servicios de laboratorio</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
+            <dl>
+              <dt>Distribución de partículas</dt>
+              <dd class="m-0 pb-3">Equipo Master Size 3000E</dd>
+
+              <dt>Granulometría de mallas</dt>
+              <dd class="m-0 pb-3">Tamises ASTM</dd>
+
+              <dt>Determinación de sales solubles</dt>
+              <dd class="m-0 pb-3">Valoración, determinación cuantitativa de una sustancia</dd>
+            </dl>
             <a href="" class="btn btn-orange text-uppercase">Más información</a>
           </div>
           <div class="col-lg-8">
@@ -83,17 +109,20 @@ get_header();
       </div>
     </section>
 
-    <section class="py-5 bg-caja-02">
+    <section id="salmueras-liquidas" class="py-5 bg-caja-02">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <h2 class="text-blue">Almueras líquidas</h2>
+          <div class="col-lg-5">
+            <h2 class="text-blue">Salmueras líquidas</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
-            <a href="" class="btn btn-orange text-uppercase">Más información</a>
+            <div class="d-inline-flex justify-content-between w-100">
+              <a href="" class="btn btn-blue text-uppercase">Ver video</a>
+              <a href="" class="btn btn-orange text-uppercase">Más información</a>
+            </div>
           </div>
-          <div class="col-lg-8"> 
+          <div class="col-lg-7"> 
             <img src="<?php echo site_url();?>/wp-content/uploads/2020/07/servicios-sales.jpg" alt="">
           </div>
         </div>
