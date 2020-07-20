@@ -31,7 +31,7 @@
 							<img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/certificaciones.png" alt="" class="w-50 d-block mx-auto">                          
 						</div>
 						<div class="col-lg-4">						
-								<a href="" class="btn btn-lg btn-blue text-uppercase d-block mx-auto" style="width:160px">Clientes</a>
+								<a href="clientes" class="btn btn-lg btn-blue text-uppercase d-block mx-auto" style="width:160px">Clientes</a>
 								<div class="my-5"></div>
 								
 								<div class="nav-redes d-flex justify-content-center">										
