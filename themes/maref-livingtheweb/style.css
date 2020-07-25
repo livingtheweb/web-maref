@@ -10400,6 +10400,10 @@ textarea {
 	margin: 0 0 1.5em;
 }
 
+.section-p60 {
+	padding: 60px 0;
+}
+
 .bg-general {
 	background-color: #ebe8d7;
 }
