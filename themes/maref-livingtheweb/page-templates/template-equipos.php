@@ -12,10 +12,10 @@ get_header();
 
 <div id="primary">
 	<main id="main" class="site-main">    
-    <section class="bg-caja-02">
+    <section class="bg-caja-02 section-p60">
       <div class="container-fluid">
           <div class="row align-items-center">           
-            <div class="col-lg-6 py-5">
+            <div class="col-lg-6">
               <div class="caja px-5">
                 <h2 class="text-blue font-weight-bold text-uppercase mb-2">Instrumentos de medición</h2>                
                 <p class="text-left text-blue">Brindamos servicios de medición y alquiler de telemedición de sondaje a nivel internacional respaldados por empresas reconocidas mundialmente como DEVICO en Argentina y Uruguay, y Boart Longyear en Chile</p>
@@ -23,61 +23,62 @@ get_header();
               </div>
             </div>
             <div class="col-lg-3 text-center py-5">   
-              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/Boart.png" alt="">           
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/Boart-e1595718874590.png" alt="">           
             </div>  
-            <div class="col-lg-3 bg-caja-02 text-center py-5">    
+            <div class="col-lg-3 bg-caja-02 py-5">    
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/logo_devico_small.png" alt="">          
             </div>                         
         </div>
       </div>
     </section>
-
-    <!-- Corregir clase section-servicios, que sea general -->
+ 
     <section id="central-right" class="section-p60 bg-general">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
-            <h2 class="text-blue font-weight-bold text-uppercase mb-2">Orientación de testigos</h2> 
+          <div class="col-lg-8 border-right border-white" style="border-width:10px !important;">
+            <h2 class="text-blue font-weight-bold text-uppercase mb-5">Orientación de testigos</h2> 
             <div class="row">
               <div class="col-lg-6">
-                <h3 class="text-blue font-weight-bold text-uppercase mb-2">DeviCore</h3>  
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum a sapiente, quibusdam eligendi eum molestiae excepturi perferendis tenetur officiis. Fugiat id, temporibus odit eligendi cum nobis esse aliquam ea a!</p>
+                <h3 class="text-blue mb-2">DeviCore</h3>  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
                 <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-devicore.jpg" alt="">               
               </div>
               <div class="col-lg-6">
-                <h3 class="text-blue font-weight-bold text-uppercase mb-2">TruCore</h3>  
+                <h3 class="text-blue mb-2">TruCore</h3>  
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
                 <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-trucore.jpg" alt="">  
               </div>
             </div> 
-            <h2 class="text-blue font-weight-bold text-uppercase mb-2">Right Aligners / Busca Nortes</h2> 
+            <div class="py-5 mt-2">
+              <h2 class="text-blue font-weight-bold text-uppercase mb-2">Right Aligners / Busca Nortes</h2> 
+            </div>
             <div class="row">
               <div class="col-lg-6">
-                <h3 class="text-blue font-weight-bold text-uppercase mb-2">DeviSight</h3>  
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum a sapiente, quibusdam eligendi eum molestiae excepturi perferendis tenetur officiis. Fugiat id, temporibus odit eligendi cum nobis esse aliquam ea a!</p>
+                <h3 class="text-blue mb-2">DeviSight</h3>  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
                 <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-devisight.jpg" alt="">               
               </div>
               <div class="col-lg-6">
-                <h3 class="text-blue font-weight-bold text-uppercase mb-2">DeviAligner</h3>  
+                <h3 class="text-blue mb-2">DeviAligner</h3>  
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
                 <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-devialigner.jpg" alt="">  
               </div>
             </div>  
           </div> <!-- /.col-lg-8 -->
-          <div class="col-lg-3">              
+          <div class="col-lg-4">              
             <h2 class="text-blue font-weight-bold text-uppercase mb-2">Medición de trayectoria</h2>
             <article>
-              <h3 class="text-blue font-weight-bold text-uppercase mb-2">DeiShot</h3>  
+              <h3 class="text-blue mb-2">DeiShot</h3>  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-devishot.jpg" alt="">    
             </article>   
-            <article>
-              <h3 class="text-blue font-weight-bold text-uppercase mb-2">DeviGyro</h3>  
+            <article class="mt-5">
+              <h3 class="text-blue">DeviGyro</h3>  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-devigyro.jpg" alt="">    
             </article>   
-            <article>
-              <h3 class="text-blue font-weight-bold text-uppercase mb-2">TruShot</h3>  
+            <article class="mt-5">
+              <h3 class="text-blue">TruShot</h3>  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum molestiae vero similique laudantium officia quas sed, rerum asperiores omnis placeat numquam quidem aperiam, optio, fugiat id natus dolorum architecto!</p>
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/equipos-trushot.jpg" alt="">    
             </article>           
@@ -96,7 +97,7 @@ get_header();
       </div>
     </aside>
   
-    <section id="control-solidos" class="section-p60 bg-general">
+    <section id="control-solidos" class="section-p60 bg-caja-02">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
