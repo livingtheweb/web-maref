@@ -10404,6 +10404,10 @@ textarea {
 	padding: 60px 0;
 }
 
+.site-main {
+	padding-top: 110px;
+}
+
 .bg-general {
 	background-color: #ebe8d7;
 }

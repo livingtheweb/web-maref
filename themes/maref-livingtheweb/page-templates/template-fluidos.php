@@ -22,7 +22,7 @@ get_header();
           <div class="row">
             <div class="col-lg-9">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6">                  
                   <h2>Gel MarXtra tm</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum natus, enim doloremque, nihil esse rem, quos accusantium est asperiores aut vel tenetur soluta? Cumque ex cupiditate error quo officia.</p>
                 </div>

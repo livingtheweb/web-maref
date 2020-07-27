@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'maref-livingtheweb' ); ?></a>
 
 
-	<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-general">
+	<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-general fixed-top">
 		<div class="container">
 			
 						
