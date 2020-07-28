@@ -14,9 +14,7 @@ get_header();
 	<main id="main" class="site-main">
 
   <?php maref_livingtheweb_post_thumbnail(); ?>
-    <div class="position-absolute w-25 bg-general px-4" style="right:0;">
-      <?php get_sidebar('fluidos'); ?>
-    </div>
+   
     <section class="bg-white pt-5">
       <div class="container">
           <div class="row">
@@ -43,7 +41,12 @@ get_header();
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum natus, enim doloremque, nihil esse rem, quos accusantium est asperiores aut vel tenetur soluta? Cumque ex cupiditate error quo officia.</p>
                 </div>
               </div>           
-            </div>                  
+            </div> 
+            <div class="col-lg-3">
+            <!-- <div class="position-absolute w-25 bg-general px-4" style="right:0;"> -->
+              <?php get_sidebar('fluidos'); ?>
+            <!-- </div> -->
+            </div>                 
         </div>
       </div>
     </section>
