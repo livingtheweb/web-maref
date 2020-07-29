@@ -10,12 +10,12 @@ get_header();
 <div id="primary">
 	<main id="main" class="site-main">  
   <?php maref_livingtheweb_post_thumbnail(); ?>
- 
+    
     <section class="bg-white pt-5 min-vh-100">
       <div class="container">
           <div class="row">
             <div class="col-lg-9">
-             
+            
               <?php 
                 $args = array( 
                   'post_type' => 'fluido',   
@@ -28,12 +28,16 @@ get_header();
                     'orderby' => 'title',
                   )                   
                 );
-
-              
+                
+                // Título taxonomía industria
+                $taxonomy = 'industria';
+                $terms = get_terms( $taxonomy );
+                foreach( $terms as $term ) { 
+                  echo '<h2 class="text-center">'. $term->name. '</h2>';
+              }
               ?>
-          <?php echo get_the_term_list( $post->ID, 'generico', '<h2 class="text-center display-5">', '</h2>') ?>
-
-              </h2>
+         
+            
               <hr>
               <div class="row align-items-center">
               <div class="col-lg-12 mb-4">
@@ -79,7 +83,7 @@ get_header();
 
                   else :
 
-                  get_template_part( 'template-parts/content-fluidos', 'none' );
+                  get_template_part( 'template-parts/content', 'none' );
 
                   endif;
                   ?>
