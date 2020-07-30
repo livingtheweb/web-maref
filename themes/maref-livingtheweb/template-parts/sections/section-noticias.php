@@ -64,7 +64,7 @@
 
 				<div class="col-md-12">
 					<div class="mt-2"></div>
-					<a href="blog/" class="btn btn-light float-right">Ver todas las notas</a>
+					<a href="blog/" class="btn btn-blue text-uppercase float-right">Ver todas las notas</a>
 				</div>	
 				</div>			
 		</div>		

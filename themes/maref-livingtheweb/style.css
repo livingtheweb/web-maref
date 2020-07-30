@@ -10700,6 +10700,20 @@ footer {
 	border-radius: 50%;
 }
 
+.nav-redes a img,
+img.ubicacion {
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 25%;
+	background-color: #0f465a;
+}
+
+.nav-redes a img:hover,
+.ubicacion:hover {
+	opacity: .6;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

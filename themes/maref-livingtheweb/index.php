@@ -32,25 +32,29 @@ get_header();
 									?>
 									
 									<!-- Blog Post -->
-									<div class="card mb-4">
+									<div class="card mb-4 shadow">
 										<div class="card-body">
-											<div class="row">
+											<div class="row align-items-end">
 												<div class="col-lg-6">
 													<a href="<?php the_permalink(); ?>">
-														<?php the_post_thumbnail( 'large');  ?>
+														<figure style="background-image:url(<?php echo get_the_post_thumbnail_url() ?>); background-repeat:no-repeat;background-position:center center; background-size:cover;height:250px">
+
+														</figure>
+													
 													</a>
 												</div>
 												<div class="col-lg-6">
 													<h2 class="card-title"><?php the_title(); ?></h2>
 													<p class="card-text"><?php  echo get_the_excerpt(); ?></p>
-													<a href="<?php the_permalink(); ?>" class="btn btn-primary">Leer más &rarr;</a>
+													<a href="<?php the_permalink(); ?>" class="btn btn-blue text-uppercase float-right">Leer más &rarr;</a>
 												</div>
 											</div>
 										</div>
-										<div class="card-footer text-muted">
+										<div class="card-footer text-white" style="background-color:rgba(88,88,92,.9)">
 											<?php the_date(); ?>										
 										</div>
 									</div>
+									<hr>
 
 
 									<?php  

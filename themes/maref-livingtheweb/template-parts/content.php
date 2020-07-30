@@ -42,7 +42,7 @@
 		</div>	
 	</article><!-- #post-<?php the_ID(); ?> -->
 </section>
-<aside class="py-5 bg-btn-app">
+<aside class="py-5 bg-btn-app mt-4">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 offset-lg-2">
