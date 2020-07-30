@@ -74,8 +74,8 @@
 				<div class="col"></div>	
 				<div class="nav-redes">	
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" class="mr-2" alt=""></a>
-					<a href="https://ar.linkedin.com/company/maref-group"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" class="mr-2" alt=""></a>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" class="mr-2" alt=""></a>
+					<a href="https://ar.linkedin.com/company/maref-group" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" class="mr-2" alt=""></a>
+					<a href="https://www.youtube.com/channel/UCbVVGB0f5XatF4UDd4M2Vhw" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" class="mr-2" alt=""></a>
 					<!-- <span class="fa-stack fa-1x" style="color:#fff;line-height:2.3em">
 						<i class="fa circle-icon fa-stack-2x icon-background"></i>
 						<i class="fab fa-youtube fa-stack-1x"></i>

@@ -24,8 +24,8 @@ get_header();
                   <h2 class="text-blue font-weight-bold">Gel MarXtra <sup>TM</sup></h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsum natus, enim doloremque, nihil esse rem, quos accusantium est asperiores aut vel tenetur soluta? Cumque ex cupiditate error quo officia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolore ullam a ratione, quidem est suscipit repudiandae odio, nulla voluptatum, sequi nihil repellendus molestias incidunt! Corrupti praesentium rem quia aperiam.</p>
                 </div>
-                <div class="col-lg-6">
-                  <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/video-devialigner-scaled.jpg" alt="">
+                <div class="col-lg-6"><a href="https://www.youtube.com/channel/UCbVVGB0f5XatF4UDd4M2Vhw" target="_blank">
+                  <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/video-devialigner-scaled.jpg" alt=""></a>
                 </div>
               </div>
               <div class="col-lg-12">
@@ -34,7 +34,7 @@ get_header();
               </div>
               <div class="row mt-5">
                 <div class="col-lg-6">
-                  <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/video-devialigner-scaled.jpg" alt="">
+                <a href="https://www.youtube.com/channel/UCbVVGB0f5XatF4UDd4M2Vhw" target="_blank"><img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/video-devialigner-scaled.jpg" alt=""></a>
                 </div>
                 <div class="col-lg-6">
                   <h2 class="text-blue font-weight-bold">Seal MarXtra <sup>TM</sup></h2>
@@ -48,7 +48,7 @@ get_header();
                
                 </div>
                 <div class="col-lg-8">
-                  <img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/video-devialigner-scaled.jpg" alt="">
+                <a href="https://www.youtube.com/channel/UCbVVGB0f5XatF4UDd4M2Vhw" target="_blank"><img src="<?php echo site_url(); ?>/wp-content/uploads/2020/07/video-devialigner-scaled.jpg" alt=""></a>
                 </div>
               </div>             
             </div> 

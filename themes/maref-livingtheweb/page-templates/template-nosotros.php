@@ -30,7 +30,7 @@ get_header();
             <p>Saepe dignissimos ducimus soluta ipsum deleniti laborum sapiente dolores pariatur animi aut, cumque corporis enim repellat? Cum, eos molestias, vitae ipsa aspernatur incidunt molestiae alias dicta quibusdam nesciunt, expedita impedit!</p>
 
             <!-- Mostrar en ventana modal desde YouTube -->
-            <a href="" class="btn btn-orange text-uppercase">Video institucional</a>
+            <a href="" class="btn btn-orange text-uppercase" data-toggle="modal" data-target="#modal1">Video institucional</a>
           </div>
           <div class="col-lg-7">
             <img src="<?php echo site_url();?>/wp-content/uploads/2020/07/nosotros-1.jpeg" alt="">

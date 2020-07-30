@@ -49,10 +49,14 @@ get_header();
                     <div class="col-lg-4 shadow-sm p-4">
                       <div class="row">
                           <div class="col-lg-4 mb-4">
-                            <i class="<?php if (get_field('icono') == "Balde") {
+                          <?php $icono = get_field('icono'); ?>
+                            <i class="<?php if ($icono == "Balde") {
                                 echo "fa fa-fill-drip fa-3x";
+                              } elseif (get_field('icono') == "Bidón") {
+                                echo "fa fa-glass-whiskey fa-3x";
+                               
                               } else {
-                                // Nada
+                                echo "fas fa-shopping-bag fa-3x";
                               }
                               
                               ?>">
@@ -60,10 +64,9 @@ get_header();
                           </div>
                           <div class="col-lg-8">
                             <h4 class="text-blue font-weight-bold"><?php the_field('nombre_comercial'); ?></h4>
-                            <p class="m-0"><?php the_field('descripcion'); ?></p>
-                            <p class="m-0"><?php the_field('forma_de_comercialización'); ?></p>
+                            <p class="m-0 text-black-50"><?php the_field('descripcion'); ?></p>
+                            <p class="font-weight-bold m-0 text-info"><?php the_field('forma_de_comercialización'); ?></p>
                           </div>
-
                       </div>
                     </div>
               

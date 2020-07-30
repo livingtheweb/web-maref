@@ -77,5 +77,95 @@
 
 <?php wp_footer(); ?>
 
+<!-- Modal Nosotros-->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N2qbhR_o3mY?rel=0"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Maref SA</span>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+		</div>
+		
+<!-- Modal Salmueras líquidas-->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<!--Content-->
+		<div class="modal-content">
+			<!--Body-->
+			<div class="modal-body mb-0 p-0">
+				<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+					<iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/N2qbhR_o3mY?rel=0"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<!--Footer-->
+			<div class="modal-footer justify-content-center">
+				<span class="mr-4">Maref SA</span>
+			
+
+				<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+		<!--/.Content-->
+	</div>
+</div>
+  
+
+<a href="#" class="to-top"></a>
+<script>
+// Botón to-top
+var btnTop = jQuery('.to-top');
+btnTop.hide();
+
+jQuery(window).scroll(function(){
+
+	var scrollTopDetect = jQuery(window).scrollTop();
+
+	if ( scrollTopDetect > 300 ) {
+		btnTop.fadeIn();
+	} else {
+		btnTop.fadeOut();
+	}
+});
+
+btnTop.click(function(event){
+	event.preventDefault();
+	jQuery('html, body').animate({
+		scrollTop:0}, 600);
+		return false;
+});
+// Nav dinámico
+jQuery(document).ready(function(){
+
+	var $nav = jQuery('#site-navigation');
+  var $logo = jQuery('#site-navigation img');
+	jQuery(window).scroll(function(){
+		if ( jQuery(this).scrollTop() > 100 ) {							
+			$nav.addClass('nav-dinamico')
+			$logo.removeClass('custom-logo').addClass('logo-small');
+		} else {
+			$nav.removeClass('nav-dinamico');
+			$logo.addClass('custom-logo').removeClass('logo-small');
+		}
+
+	});
+});
+</script>
 </body>
 </html>

@@ -12,6 +12,7 @@
 	<div class="overlay"></div>
 	<!-- Importante: Playsinline is required for mobile Safari, allowing videos to play without forcing fullscreen mode. -->
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <!-- <source src="<?php echo get_template_directory_uri(); ?>/images/video-home.mp4" type="video/mp4"> -->
     <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
   </video>
   <div class="container h-100">

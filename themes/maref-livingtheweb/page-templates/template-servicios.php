@@ -118,7 +118,9 @@ get_header();
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
             <div class="d-inline-flex justify-content-between w-100">
-              <a href="" class="btn btn-blue text-uppercase">Ver video</a>
+
+              <!-- Mostrar en ventana modal desde YouTube -->
+              <a href="" class="btn btn-blue text-uppercase" data-toggle="modal" data-target="#modal2">Ver video</a>             
               <a href="" class="btn btn-orange text-uppercase">Más información</a>
             </div>
           </div>
