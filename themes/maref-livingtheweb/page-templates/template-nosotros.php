@@ -28,8 +28,9 @@ get_header();
             <p>Somos una empresa argentina dedicada... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident asperiores error velit aspernatur ab optio delectus, at nostrum commodi molestiae dolorum cupiditate, fuga facilis quasi laudantium ratione maiores vitae!</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non neque quam corporis amet deleniti, quod possimus laboriosam provident itaque similique, saepe sequi sit mollitia voluptate vel illo consectetur fugit. Veniam!</p>
             <p>Saepe dignissimos ducimus soluta ipsum deleniti laborum sapiente dolores pariatur animi aut, cumque corporis enim repellat? Cum, eos molestias, vitae ipsa aspernatur incidunt molestiae alias dicta quibusdam nesciunt, expedita impedit!</p>
-         
-            <a href="" class="btn btn-orange text-uppercase">Más información</a>
+
+            <!-- Mostrar en ventana modal desde YouTube -->
+            <a href="" class="btn btn-orange text-uppercase">Video institucional</a>
           </div>
           <div class="col-lg-7">
             <img src="<?php echo site_url();?>/wp-content/uploads/2020/07/nosotros-1.jpeg" alt="">

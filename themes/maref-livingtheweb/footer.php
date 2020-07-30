@@ -11,13 +11,14 @@
 
 ?>
 
-	<footer class="pt-5">
+	<footer class="pt-5 mt-5">
 		<div class="container">
 				<div class="row">
 						<div class="col-lg-4">
 								<h4 class="text-center mb-3">Contáctanos</h4>
 								<p class="text-black-50 text-center">Administración y Planta Industrial: Ruta Provincial 84 N°8400, Parque Industrial Municipal de Luján de Cuyo, Predio F5, Mendoza, Argentina.</p> 
 								<p class="text-black-50 text-center">Depósito: Espejo Oeste 240, Russell, Maipú, Mendoza, Argentina.</p>	
+								<h2>icono</h2>
 						</div>
 						<div class="col-lg-4">   
 							<h4 class="text-center mb-3">Certificaciones</h4>    

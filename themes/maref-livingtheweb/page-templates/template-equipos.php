@@ -19,7 +19,7 @@ get_header();
               <div class="caja px-5">
                 <h2 class="text-blue font-weight-bold text-uppercase mb-2">Instrumentos de medición</h2>                
                 <p class="text-left text-blue">Brindamos servicios de medición y alquiler de telemedición de sondaje a nivel internacional respaldados por empresas reconocidas mundialmente como DEVICO en Argentina y Uruguay, y Boart Longyear en Chile</p>
-                <a href="" class="btn btn-lg btn-orange">Más información</a>
+                <a href="contacto" class="btn btn-lg btn-orange">Más información</a>
               </div>
             </div>
             <div class="col-lg-3 text-center py-5">   
@@ -106,7 +106,7 @@ get_header();
           <div class="mx-4"></div>
           <div class="row">
             <div class="col-lg-5 text-left">              
-              <h3 class="text-blue font-weight-bold text-uppercase mb-5">Equipos para perforación de dinammita</h3>  
+              <h3 class="text-blue font-weight-bold text-uppercase mb-5">Equipos para perforación de diamantina</h3>  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugit, illum, repellendus impedit veritatis quidem ut commodi pariatur at earum odit recusandae quos, perferendis dolore molestiae similique nisi harum fuga.</p>    
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi quasi ipsam sit ullam saepe ab vel accusamus perferendis ducimus totam molestiae recusandae, enim qui quam corporis quae sunt dolorem?</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem accusantium delectus laborum? Consequatur molestias, porro sapiente ducimus qui veritatis eius. Rem similique, et cumque dolor necessitatibus reprehenderit tenetur assumenda non?</p>
@@ -129,14 +129,14 @@ get_header();
         </div>
       </div>     
     </section> 
-    <section id="equipos-rotacion" class="section-p60 bg-general">
+    <section id="equipos-rotacion" class="section-p60 bg-caja-02">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-8">
             <img src="https://via.placeholder.com/900x450" alt="">
           </div>
           <div class="col-lg-4">
-            <h3 class="text-blue font-weight-bold text-uppercase mb-5">Equipos para perforación de dinammita</h3> 
+            <h3 class="text-blue font-weight-bold text-uppercase mb-5">Equipos para rotación</h3> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam hic itaque culpa ab voluptatum, suscipit vel alias possimus necessitatibus aspernatur, laudantium, veritatis ratione quisquam aut nulla inventore perspiciatis iste? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quas velit, quidem voluptas optio, unde minima reprehenderit aliquid ea asperiores odio ducimus magnam? Ipsa eveniet culpa, autem accusamus optio eaque?</p>
             <a href="" class="btn btn-orange text-uppercase">Más información</a>   
           </div>

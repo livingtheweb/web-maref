@@ -45,7 +45,7 @@ get_header();
           <div class="col-lg-3">              
             <h2 class="font-weight-bold text-left display-4">Asistencia técnica</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugit, illum, repellendus impedit veritatis quidem ut commodi pariatur at earum odit recusandae quos, perferendis dolore molestiae similique nisi harum fuga.</p>    
-            <a href="" class="btn btn-orange text-uppercase">Más información</a>               
+            <a href="contacto" class="btn btn-orange text-uppercase">Más información</a>               
           </div>
         </div>
       </div>     

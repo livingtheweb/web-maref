@@ -1,4 +1,4 @@
-
+<aside class="bg-general">
 <h2>Nuestros fluidos de perforación</h2>
 <?php 
   $taxonomy = 'generico';
@@ -33,5 +33,6 @@
 ?>
 <!-- <a href="" class="btn btn-block btn-orange">Fluidos para mining</a>
 <a href="" class="btn btn-block btn-blue">Fluidos para Oil & Gas</a> -->
+</aside>
 <hr class="mb-4">
  

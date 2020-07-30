@@ -9,56 +9,46 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-			
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
+		<div class="col-lg-5">	
+					
 				<?php
-				maref_livingtheweb_posted_on();
-				maref_livingtheweb_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+				if ( is_singular() ) :
+					the_title( '<h1 class="entry-title text-blue font-weight-bold">', '</h1>' );
+				else :
+					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+				endif;
 
-	<?php maref_livingtheweb_post_thumbnail(); ?>
+				if ( 'post' === get_post_type() ) :
+					?>
+					<div class="entry-meta">
+						<?php
+							
+						// maref_livingtheweb_posted_on();
+						// maref_livingtheweb_posted_by();
+						?>
+						<span>Publicado el <?php the_date(); ?></span>
+					</div><!-- .entry-meta -->
+				<?php endif; ?>
+				<div class="entry-content">
+					<?php
+					the_content();
+					
+					?>
+				</div><!-- .entry-content -->
+			</div>
 
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'maref-livingtheweb' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'maref-livingtheweb' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php maref_livingtheweb_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+		<div class="col-lg-7">
+			<?php maref_livingtheweb_post_thumbnail(); ?>
+		</div>	
+	</article><!-- #post-<?php the_ID(); ?> -->
+</section>
+<aside class="py-5 bg-btn-app">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2">
+				<?php get_search_form(); ?>
+			</div>
+		</div>
+	</div>
+</aside>
+<?php get_template_part('template-parts/sections/section','noticias'); ?>

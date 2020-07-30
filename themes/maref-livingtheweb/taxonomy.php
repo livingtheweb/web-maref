@@ -87,7 +87,7 @@ get_header();
             </div>
             </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 bg-general">
               <?php get_sidebar('fluidos'); ?>
             </div>
             </div>
